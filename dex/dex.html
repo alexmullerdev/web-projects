@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./styleDex.css">
+</head>
+<body>
+    <div>
+        <p>Pesquise o Pokémon que deseja encontrar:</p>
+        <input type="text" id="pkmInput" placeholder="Nome ou nº da Dex">
+        <button onclick="getpkm(document.getElementById('pkmInput').value)">Buscar</button>
+    </div>
+    <script src="./fetchDex.js"></script>
+</body>
+</html>

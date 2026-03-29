@@ -1,0 +1,144 @@
+body {
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center;     /* centraliza vertical */
+  flex-direction: column;
+  gap: 36px;
+}
+
+.Card {
+  width: 220px;
+  padding: 16px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: "Segoe UI", sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+}
+
+.name {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #333;
+  margin: 0;
+}
+
+.sprite {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.talk{
+  font-style: italic;
+  text-align: center;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.typesDiv {
+  display:flex;
+  gap:8px;
+  justify-content:center;
+}
+.typesDiv p {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.9rem;
+  
+}
+
+.type-fire {
+  background: #f08030;
+  color: white;
+}
+
+.type-water {
+  background: #6890f0;
+  color: white;
+}
+
+.type-grass {
+  background: #78c850;
+  color: white;
+}
+
+.type-electric {
+  background: #f8d030;
+  color: #333;
+}
+
+.type-psychic {
+  background: #f85888;
+  color: white;
+}
+
+.type-ice {
+  background: #98d8d8;
+}
+
+.type-fighting {
+  background: #c03028;
+  color: white;
+}
+
+.type-poison {
+  background: #a040a0;
+  color: white;
+}
+
+.type-ground {
+  background: #e0c068;
+}
+
+.type-flying {
+  background: #a890f0;
+}
+
+.type-bug {
+  background: #a8b820;
+  color: white;
+}
+
+.type-rock {
+  background: #b8a038;
+  color: white;
+}
+
+.type-ghost {
+  background: #705898;
+  color: white;
+}
+
+.type-dragon {
+  background: #7038f8;
+  color: white;
+}
+
+.type-dark {
+  background: #705848;
+  color: white;
+}
+
+.type-steel {
+  background: #b8b8d0;
+}
+
+.type-fairy {
+  background: #f0b6bc;
+}
